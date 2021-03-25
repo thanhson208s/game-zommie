@@ -317,28 +317,7 @@ class UIManager:
         ))
 
     def onHit(self, zom, pos):
-        # def onShot(sprite, gameManager=self.gameManager):
-        #     print(sprite.name)
-        #     zom = gameManager.getZomById(int(sprite.name[3:]))
-        #     print(str(zom.id))
-        #     if not zom.isShot:
-        #         gameManager.onZomShot(zom.id)
-        #         sprite.stopAllActions()
-        #         sprite.x, sprite.y = zom.endPos.x, zom.endPos.y
-        #         sprite.rotate = zom.endRotate
-        #         sprite.setSpriteFrame(self.zomDeadSpriteFrame)
-        #         sprite.setDirty()
-        #         def callback(sprite=sprite, zom=zom, gameManager=gameManager):
-        #             sprite.opacity = 255
-        #             sprite.x, sprite.y = zom.startPos.x, zom.startPos.y
-        #             sprite.rotate = zom.startRotate
-        #             sprite.setDirty()
-        #             gameManager.onZomHide(zom.id)
-        #         sprite.runAction(SequenceAction(
-        #             FadeOutAction(0.25),
-        #             CallAction(callback)
-        #         ))
-        # sprite.onMouseBegan = onShot
+        soundManager.playSplash()
 
         sprite = self.getNode("zom" + str(zom.id))
         sprite.stopAllActions()
@@ -382,6 +361,8 @@ class UIManager:
         ))
 
     def onMiss(self, pos):
+        soundManager.playMiss()
+
         miss = Sprite(self.missSpriteFrame, True)
         miss.x = pos[0]
         miss.y = pos[1]
