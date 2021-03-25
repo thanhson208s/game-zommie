@@ -1,0 +1,93 @@
+[
+    {
+        "path": "res/background.png",
+        "scale": 1,
+        "zOrder": -1,
+        "pos": [1050, 800],
+        "rotate": 0
+    },
+    {
+        "path": "res/bg.png",
+        "scale": 1,
+        "zOrder": 1,
+        "pos": [1050, 800],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/2.png",
+        "scale": 0.3,
+        "zOrder": 6,
+        "pos": [1888, 1387],
+        "rotate": 0
+    },
+    {
+        "path": "res/dec/0.png",
+        "scale": 0.25,
+        "zOrder": 2,
+        "pos": [1602, 1127],
+        "rotate": 0
+    },
+    {
+        "path": "res/dec/0.png",
+        "scale": 0.25,
+        "zOrder": 2,
+        "pos": [330, 1150],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/0.png",
+        "scale": 0.25,
+        "zOrder": 4,
+        "pos": [202, 1229],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/4.png",
+        "scale": 0.25,
+        "zOrder": 6,
+        "pos": [177, 1404],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/1.png",
+        "scale": 0.18,
+        "zOrder": 4,
+        "pos": [1677, 995],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/3.png",
+        "scale": 0.15,
+        "zOrder": 4,
+        "pos": [721, 1135],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/3.png",
+        "scale": 0.2,
+        "zOrder": 4,
+        "pos": [912, 1102],
+        "rotate": 0
+    },
+    {
+        "path": "res/dec/1.png",
+        "scale": 0.15,
+        "zOrder": 4,
+        "pos": [1300, 1112],
+        "rotate": 0
+    },
+    {
+        "path": "res/dec/1.png",
+        "scale": 0.15,
+        "zOrder": 6,
+        "pos": [1527, 1433],
+        "rotate": 0
+    },
+    {
+        "path": "res/obs/5.png",
+        "scale": 0.4,
+        "zOrder": 6,
+        "pos": [1143, 1354],
+        "rotate": 0
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "id": 0,
+        "scale": 0.1,
+        "zOrder": 5,
+        "point": 1,
+        "startPos": [1920, 1610],
+        "endPos": [1920, 1429],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 1,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [1129, 348],
+        "endPos": [1129, 240],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 2,
+        "scale": 0.07,
+        "zOrder": 0,
+        "point": 3,
+        "startPos": [640, 278],
+        "endPos": [741, 278],
+        "startRotate": 37,
+        "endRotate": -41
+    },
+    {
+        "id": 3,
+        "scale": 0.07,
+        "zOrder": 0,
+        "point": 3,
+        "startPos": [803, 515],
+        "endPos": [848, 400],
+        "startRotate": -10,
+        "endRotate": -10
+    },
+    {
+        "id": 4,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [789, 861],
+        "endPos": [789, 758],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 5,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [964, 727],
+        "endPos": [883, 680],
+        "startRotate": 54,
+        "endRotate": 54
+    },
+    {
+        "id": 6,
+        "scale": 0.05,
+        "zOrder": 0,
+        "point": 5,
+        "startPos": [580, 607],
+        "endPos": [488, 607],
+        "startRotate": 90,
+        "endRotate": 90
+    },
+    {
+        "id": 7,
+        "scale": 0.08,
+        "zOrder": 0,
+        "point": 2,
+        "startPos": [259, 748],
+        "endPos": [354, 748],
+        "startRotate": 40,
+        "endRotate": -34
+    },
+    {
+        "id": 8,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [1673, 352],
+        "endPos": [1673, 240],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 9,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [1230, 438],
+        "endPos": [1331, 438],
+        "startRotate": 44,
+        "endRotate": -56
+    },
+    {
+        "id": 10,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [1236, 105],
+        "endPos": [1318, 189],
+        "startRotate": -137,
+        "endRotate": -137
+    },
+    {
+        "id": 11,
+        "scale": 0.05,
+        "zOrder": 0,
+        "point": 5,
+        "startPos": [1458, 818],
+        "endPos": [1426, 737],
+        "startRotate": 16,
+        "endRotate": 16
+    },
+    {
+        "id": 12,
+        "scale": 0.06,
+        "zOrder": 0,
+        "point": 4,
+        "startPos": [1727, 864],
+        "endPos": [1727, 751],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 13,
+        "scale": 0.08,
+        "zOrder": 0,
+        "point": 2,
+        "startPos": [1946, 672],
+        "endPos": [1946, 531],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 14,
+        "scale": 0.06,
+        "zOrder": 3,
+        "point": 4,
+        "startPos": [1617, 1025],
+        "endPos": [1617, 914],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 15,
+        "scale": 0.06,
+        "zOrder": 3,
+        "point": 4,
+        "startPos": [695, 1119],
+        "endPos": [695, 1019],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 16,
+        "scale": 0.08,
+        "zOrder": 3,
+        "point": 2,
+        "startPos": [928, 1066],
+        "endPos": [928, 936],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 17,
+        "scale": 0.08,
+        "zOrder": 5,
+        "point": 2,
+        "startPos": [198, 1359],
+        "endPos": [198, 1209],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 18,
+        "scale": 0.5,
+        "zOrder": 7,
+        "point": 1,
+        "startPos": [1078, 2112],
+        "endPos": [1078, 1250],
+        "startRotate": 0,
+        "endRotate": 0
+    },
+    {
+        "id": 19,
+        "scale": 0.4,
+        "zOrder": 7,
+        "point": 1,
+        "startPos": [-306, 626],
+        "endPos": [220, 626],
+        "startRotate": 47,
+        "endRotate": -50
+    },
+    {
+        "id": 20,
+        "scale": 0.4,
+        "zOrder": 7,
+        "point": 1,
+        "startPos": [2510, 390],
+        "endPos": [1780, 390],
+        "startRotate": 90,
+        "endRotate": 90
+    }
+]
