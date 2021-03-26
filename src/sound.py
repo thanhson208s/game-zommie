@@ -19,6 +19,8 @@ class SoundManager:
         self.splash.set_volume(config.EFFECT_VOLUME)
         self.miss = pygame.mixer.Sound("res/sound/miss.wav")
         self.miss.set_volume(config.EFFECT_VOLUME * 5)
+        self.button = pygame.mixer.Sound("res/sound/button.wav")
+        self.button.set_volume(config.EFFECT_VOLUME * 5)
 
     def instance():
         if SoundManager._instance is None:
@@ -58,5 +60,9 @@ class SoundManager:
     def playMiss(self):
         if config.ENABLE_EFFECT:
             self.miss.play()
+
+    def playButton(self):
+        if config.ENABLE_EFFECT:
+            self.button.play()
 
 soundManager = SoundManager.instance()

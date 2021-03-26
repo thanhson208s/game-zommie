@@ -78,6 +78,10 @@ class UIManager:
             sprite = Sprite("res/zom/0.png")
             sprite.scaleX = sprite.scaleY = zom.scale
             self.addNode(sprite, zom.zOrder, "zom" + str(zom.id))
+            def onZomMouseBegan(zom):
+                zomData = self.gameManager.getZomById(int(zom.name[3:]))
+                return not zomData.isShot
+            sprite.onMouseBegan = onZomMouseBegan
 
         hover = LayerColor(pygame.Color(255, 255, 255, 150), config.WIDTH, config.HEIGHT)
         self.addNode(hover, 10, "hover")
@@ -544,8 +548,9 @@ class Sprite(Node):
                     self.inMouseEvent = True
                     self.mouseBeganPos = pygame.math.Vector2(pos)
                     if self.onMouseBegan:
-                        self.onMouseBegan(self)
-                    return True
+                        return self.onMouseBegan(self)
+                    else:
+                        return True
                 else:
                     return False
         elif eventType == pygame.MOUSEBUTTONUP:
@@ -725,13 +730,15 @@ class Button(Node):
                 self.mouseMovedPos = pygame.math.Vector2(pos)
                 if self.onMouseMoved:
                     self.onMouseMoved(self)
-            if pos[0] >= 0 and pos[0] < self.img.get_width() and pos[1] >= 0 and pos[1] < self.img.get_height() and self.img.get_at(pos).a > 0:
+            if self.visible and pos[0] >= 0 and pos[0] < self.img.get_width() and pos[1] >= 0 and pos[1] < self.img.get_height() and self.img.get_at(pos).a > 0:
                 if not self.isFocus:
                     self.setDirty()
+                    soundManager.playButton()
                 self.isFocus = True
             else:
                 if self.isFocus:
                     self.setDirty()
+                    soundManager.playButton()
                 self.isFocus = False
         return False
             
